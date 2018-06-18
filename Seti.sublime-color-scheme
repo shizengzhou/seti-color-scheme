@@ -1,0 +1,129 @@
+{
+    "name": "Seti Color Scheme",
+    "globals": {
+        "background": "#24323E",
+        "foreground": "#DBE2E8",
+        "caret": "#02b3e4",
+        "line_highlight": "#344655",
+        "selection": "#344655"
+    },
+    "rules": [
+        {
+            "name": "Tag",
+            "scope": "entity.name.tag",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "Punctuation tag",
+            "scope": "punctuation.definition.tag",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "Doctype",
+            "scope": "meta.tag.sgml.doctype.html",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "HTML attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "#9FCA56"
+        },
+        {
+            "name": "Class",
+            "scope": "entity.name.class",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "Function",
+            "scope": "entity.name.function",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "#DBE2E8"
+        },
+        {
+            "name": "Parameter",
+            "scope": "variable.parameter",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "Variable language",
+            "scope": "variable.language",
+            "foreground": "#E6CD69"
+        },
+        {
+            "name": "Variable function",
+            "scope": "variable.function",
+            "foreground": "#3193c6"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant",
+            "foreground": "#FF7D7D"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "#E6CD69"
+        },
+        {
+            "name": "Support",
+            "scope": "support",
+            "foreground": "#02CCBA"
+        },
+        {
+            "name": "CSS value",
+            "scope": "support.constant.property-value.css",
+            "foreground": "#FF7D7D"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "#E6CD69"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "#9FCA56"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#02CCBA"
+        },
+        {
+            "name": "CSS string",
+            "scope": "string.quoted.double.css",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "JavaScript string",
+            "scope": "string.quoted.js",
+            "foreground": "#D38BFF"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#7D97AD"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "background": "#F92672",
+            "foreground": "#F8F8F0"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "background": "#AE81FF",
+            "foreground": "#F8F8F0"
+        }
+    ]
+}
