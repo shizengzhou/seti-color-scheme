@@ -74,8 +74,28 @@
             "foreground": "#E6CD69"
         },
         {
-            "name": "Support",
-            "scope": "support",
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "#02CCBA"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "#02CCBA"
+        },
+        {
+            "name": "Library class",
+            "scope": "support.class",
+            "foreground": "#02CCBA"
+        },
+        {
+            "name": "Library type",
+            "scope": "support.type",
+            "foreground": "#02CCBA"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
             "foreground": "#02CCBA"
         },
         {
